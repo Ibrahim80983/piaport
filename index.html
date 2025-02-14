@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Marck+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Marck+Script&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="icon" href="./images/Screenshot 2025-01-13 131554.png" />
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+
+    <title>PIACOM</title>
+  </head>
+  <body>
+    <div class="nav-home">
+      <nav>
+        <h1><span>P</span>IA</h1>
+        <ul>
+          <li><a href="#hero">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#Services">Services</a></li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#contact">Contacts</a></li>
+        </ul>
+        <a href="#hero" class="toTop"></a>
+        <span class="display-me" onclick="comeOnOnline()"
+          ><i class="fa-solid fa-bars hamburger"></i
+        ></span>
+      </nav>
+      <div class="slideIn">
+        <i class="fa-solid fa-xmark" onclick="goOffLine()"></i>
+        <ul class="response">
+          <li><a href="#hero" onclick="letOff()">Home</a></li>
+          <li><a href="#about" onclick="letOff()">About</a></li>
+          <li><a href="#Services" onclick="letOff()">Services</a></li>
+          <li><a href="#Portfolio" onclick="letOff()">Portfolio</a></li>
+          <li><a href="#contact" onclick="letOff()">Contacts</a></li>
+        </ul>
+      </div>
+      <div class="hero" id="hero">
+        <div class="slideon">
+          <img src="./images/1.jpg" alt="" />
+
+          <div class="sub-hero">
+            <h2>CSS Flexbox</h2>
+            <h1>Flex Slider</h1>
+            <h2>Work on all modern browsers, IE 10+</h2>
+          </div>
+        </div>
+        <div class="slideon">
+          <img src="./images/2.jpg" alt="" />
+          <div class="sub-hero">
+            <h2>web design and development</h2>
+            <h1>Digital Studio</h1>
+            <h1 class="week">WEB, MOBILE, UX DESIGN</h1>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div></div>
+    <h1 class="intro" id="about">About Me</h1>
+
+    <div class="about-me">
+      <div class="me_des">
+        <img src="./images/myPics.jpg" alt="" />
+
+        <p>
+          "I'm Ayanwumi Ibrahim, a frontend website developer specializing in
+          creating user-friendly websites. With 2 years of experience in web
+          development, I focus on crafting responsive and visually appealing
+          websites that deliver seamless user experiences. My expertise includes
+          HTML, CSS, JavaScript, and modern frameworks like React. I am
+          passionate about clean code, innovative solutions, and staying updated
+          with the latest industry trends."
+        </p>
+        <div class="link">
+          <a href="" class="hire_me">HIRE ME</a>
+          <a href="./Resume.docx" download="./Resume.docx" class="download_cv"
+            >DOWNLOAD CV</a
+          >
+        </div>
+      </div>
+      <div class="charts">
+        <p>HTML</p>
+        <div class="chart_me">
+          <div class="html-high"></div>
+          <div class="html-low"></div>
+        </div>
+        <p>CSS</p>
+        <div class="chart_me">
+          <div class="css-high"></div>
+          <div class="css-low"></div>
+        </div>
+        <p>JAVASCRIPT</p>
+        <div class="chart_me">
+          <div class="js-high"></div>
+          <div class="js-low"></div>
+        </div>
+        <p>REACT</p>
+        <div class="chart_me">
+          <div class="react-high"></div>
+          <div class="react-low"></div>
+        </div>
+        <p>BOOTSTRAP</p>
+        <div class="chart_me">
+          <div class="bootstrap-high"></div>
+          <div class="bootstrap-low"></div>
+        </div>
+      </div>
+    </div>
+    <div class="Services" id="Services">
+      <div class="service-intro">
+        <h1 class="intro myService">Services</h1>
+        <div class="just_line"></div>
+      </div>
+      <div class="noted-services">
+        <div>
+          <i class="fa-solid fa-laptop"></i>
+          <div>
+            <h2>Website Design</h2>
+            <p>
+              Designs websites for both big and small screens with stunning
+              designs to the best of my knowledge and capacity
+            </p>
+          </div>
+        </div>
+        <div>
+          <i class="fa-brands fa-css3-alt"></i>
+          <div>
+            <h2>Html, Css and JavaScript coding</h2>
+            <p>
+              The fundamentals basis of client-side website design encompasses
+              html, css and JavaScript make website look as they look, the
+              designs, interactivity etc.
+            </p>
+          </div>
+        </div>
+        <div>
+          <i class="fa-solid fa-users"></i>
+          <div>
+            <h2>Collaborative works</h2>
+            <p>works anywhere either in-person or remote</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="serviceSub">
+      <h1>I'm</h1>
+      <h1 class="reshow"></h1>
+    </div>
+    <div>
+      <div class="service-intro">
+        <h1 class="intro myService" id="Portfolio">Portfolio</h1>
+        <div class="just_line"></div>
+      </div>
+      <div class="service-content">
+        <div>
+          <img src="./images/firstweb.png" alt="" />
+          <div class="sliding">
+            <a href="https://new-world-x6ji.vercel.app/" target="_blank"
+              >check out</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="./images/Screenshot 2024-09-09 130424.png" alt="" />
+          <div class="sliding">
+            <a
+              href="https://ibrahim80983.github.io/pia.github.io"
+              target="_blank"
+              >check out</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="images/Screenshot 2024-09-10 064647.png" alt="" />
+          <div class="sliding">
+            <a
+              href="https://ibrahim80983.github.io/my-first-portfolio-modified"
+              target="_blank"
+              >check out</a
+            >
+          </div>
+        </div>
+        <div>
+          <img src="images/Screenshot 2025-01-17 215203.png" alt="" />
+          <div class="sliding">
+            <a href="https://pia-port-github-io-2.vercel.app/" target="_blank"
+              >check out</a
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+    <div>
+      <div class="service-intro" id="contact">
+        <h1 class="intro myService">Contact</h1>
+        <div class="just_line"></div>
+        <p class="pls" id="orange"></p>
+      </div>
+      <form action="">
+        <div>
+          <input type="text" placeholder="Name" />
+          <input type="email" placeholder="Email" />
+          <input type="text" placeholder="Subject" />
+        </div>
+        <textarea name="message" id="" placeholder="Message"></textarea>
+        <input type="submit" value="submit" />
+      </form>
+    </div>
+    <div class="fooTer">
+      <div>
+        <p>you can reach out on:</p>
+        <a
+          href="https://wa.me/2348149195661?text=Hi%20Ibrahim,%20I%20got%20your%20number%20from%20your%20portfolio,%20sure%20you%20are%20available%20for%20a%20chat"
+          target="_blank"
+          rel="noopener noreferrer"
+          title="recommended"
+          ><i class="fa-brands fa-square-whatsapp"></i
+        ></a>
+        <a
+          href="https://github.com/Ibrahim80983"
+          target="_blank"
+          rel="noopener noreferrer"
+          ><i class="fa-brands fa-github"></i></a
+        ><a href=""><i class="fa-brands fa-facebook"></i></a>
+        <a href="mailto:ibrahimayanwumi661@gmail.com"
+          ><i class="fa-regular fa-envelope"></i
+        ></a>
+      </div>
+      <p class="copyright"></p>
+    </div>
+    <script
+      src="https://kit.fontawesome.com/7da1971812.js"
+      crossorigin="anonymous"
+    ></script>
+    <script src="./index.js"></script>
+  </body>
+</html>
