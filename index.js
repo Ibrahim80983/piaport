@@ -100,7 +100,7 @@ var ty = new Typed("#orange", {
   typeSpeed: 50,
   backSpeed: 50,
   loop: true,
-  strings: ["will be happy to hear from you", "Thanks"],
+  strings: ["will be happy to hear from you", "Thanks for reaching out"],
 });
 let d = new Date();
 let copy = (document.querySelector(".copyright").innerHTML =
